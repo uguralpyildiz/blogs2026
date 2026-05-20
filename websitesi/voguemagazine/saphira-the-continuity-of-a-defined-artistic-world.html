@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vogue - At Gruene Hall, Kacey Musgraves and the Mariachi Brothers...</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,600;6..96,700&family=Jost:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'vogue-logo': ['"Bodoni Moda"', 'serif'],
+                        'vogue-sans': ['Jost', 'sans-serif'],
+                    },
+                    colors: {
+                        'vogue-border': '#eaeaea',
+                        'vogue-gray': '#666666',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-white text-black font-vogue-sans antialiased selection:bg-black selection:text-white">
+
+    <div
+        class="w-full bg-white py-2 px-4 text-center text-[10px] sm:text-xs tracking-widest uppercase border-b border-vogue-border flex items-center justify-center space-x-2">
+        <span class="text-vogue-gray">Your All-Access Pass to Vogue</span>
+        <a href="#" class="font-semibold underline hover:text-vogue-gray transition">DOWNLOAD NOW</a>
+    </div>
+
+    <header class="sticky top-0 bg-white z-40">
+        <div class="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between border-b border-vogue-border">
+            <div class="flex-1">
+                <a href="#"
+                    class="inline-block bg-black text-white text-[10px] font-bold tracking-widest uppercase px-3 py-1.5 hover:bg-gray-800 transition">
+                    SUBSCRIBE
+                </a>
+            </div>
+
+            <div class="flex-shrink-0 text-center">
+                <a href="#" class="font-vogue-logo text-3xl sm:text-4xl tracking-normal block pt-1">
+                    VOGUE
+                </a>
+            </div>
+
+            <div class="flex-1 flex items-center justify-end space-x-4 text-xs font-medium tracking-wider uppercase">
+                <button aria-label="Search" class="p-1 hover:text-vogue-gray transition">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"></path>
+                    </svg>
+                </button>
+                <button aria-label="Account" class="p-1 hover:text-vogue-gray transition hidden sm:block">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z">
+                        </path>
+                    </svg>
+                </button>
+                <button class="flex items-center space-x-1.5 p-1 hover:text-vogue-gray transition">
+                    <span class="hidden sm:inline">MENU</span>
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <div class="max-w-5xl mx-auto px-4 border-b border-vogue-border">
+            <nav
+                class="flex items-center justify-center space-x-5 sm:space-x-8 overflow-x-auto py-3 text-[10px] sm:text-xs tracking-widest font-medium uppercase text-gray-900 scrollbar-none">
+                <a href="#" class="hover:text-vogue-gray whitespace-nowrap transition">FASHION</a>
+                <a href="#" class="hover:text-vogue-gray whitespace-nowrap transition">RUNWAY</a>
+                <a href="#" class="hover:text-vogue-gray whitespace-nowrap transition">SHOPPING</a>
+                <a href="#" class="hover:text-vogue-gray whitespace-nowrap transition">BEAUTY</a>
+                <div class="relative text-center flex flex-col items-center">
+                    <a href="#" class="hover:text-vogue-gray whitespace-nowrap transition font-semibold">CULTURE</a>
+                    <span
+                        class="absolute top-full mt-0.5 text-[9px] tracking-wider text-vogue-gray font-normal block">MUSIC</span>
+                </div>
+                <a href="#" class="hover:text-vogue-gray whitespace-nowrap transition">LIVING</a>
+                <a href="#" class="hover:text-vogue-gray whitespace-nowrap transition">VOGUE BUSINESS</a>
+                <a href="#" class="hover:text-vogue-gray whitespace-nowrap transition">TEEN VOGUE</a>
+            </nav>
+            <div class="h-3"></div>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-4 pt-12 pb-20 relative">
+
+        <div class="max-w-3xl mx-auto text-center mb-10">
+            <h1 class="text-3xl sm:text-4xl md:text-[40px] font-normal tracking-tight leading-[1.15] text-black">
+                At Gruene Hall, Kacey Musgraves and the Mariachi Brothers Were a Match Made in (Texan) Heaven
+            </h1>
+
+            <div class="mt-8 space-y-1.5">
+                <div class="text-[10px] font-medium tracking-[0.2em] uppercase text-gray-800">
+                    BY <a href="#" class="underline hover:text-vogue-gray">CAI CARDENAS</a>
+                </div>
+                <div class="text-xs text-vogue-gray font-light">
+                    May 7, 2026
+                </div>
+            </div>
+        </div>
+
+        <div class="relative w-full aspect-[16/9] sm:aspect-[2/1] overflow-hidden bg-gray-100">
+            <img src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=1600&q=80"
+                alt="Gruene Hall Stage Lighting" class="w-full h-full object-cover">
+        </div>
+
+        <article
+            class="max-w-2xl mx-auto mt-12 text-base sm:text-lg font-light leading-relaxed text-gray-800 space-y-6">
+            <p
+                class="first-letter:text-5xl first-letter:font-vogue-logo first-letter:float-left first-letter:mr-3.5 first-letter:mt-1">
+                Teksas'ın efsanevi dans salonlarından Gruene Hall, loş ışıklar altında asılı duran tarihi tabelaları ve
+                ahşap zemininde biriken onlarca yıllık anısıyla Kacey Musgraves’in en son performansına ev sahipliği
+                yaptı. Sahneye çıktığı an, izleyiciler sadece bir konsere değil, Teksas kökenlerinin köklü bir
+                kutlamasına tanıklık edeceklerini biliyordu.
+            </p>
+            <p>
+                Mariachi Brothers grubunun sahneye katılmasıyla gece bambaşka bir boyuta ulaştı. Geleneksel
+                enstrümanların tınısı, Musgraves’in ipeksi vokalleriyle mükemmel bir uyum yakalarken, salonda yankılanan
+                melodiler iki farklı müzikal dünyanın birleşiminden doğan eşsiz bir uyumu gözler önüne serdi. Sahnede
+                parlayan kırmızı ve yeşil spot ışıkları, nostaljik atmosferi daha da pekiştiriyordu.
+            </p>
+            <p>
+                Bu performans, sadece yerel halk için değil, uzaktan gelen müzik tutkunları için de unutulmazlar arasına
+                girdi. Müzik, kültür ve Teksas ruhunun iç içe geçtiği bu büyülü akşam, uzun yıllar boyunca hafızalardan
+                silinmeyecek bir dönüm noktası oldu.
+            </p>
+        </article>
+
+    </main>
+
+    <div class="fixed bottom-4 left-0 right-0 z-50 px-4 pointer-events-none">
+        <div
+            class="max-w-4xl mx-auto bg-white/95 backdrop-blur-md py-3 px-6 shadow-2xl border border-gray-200 text-center text-xs tracking-wide text-gray-900 pointer-events-auto rounded-sm">
+            <span>Subscribe to continue. Get unlimited digital access for <strong>$1/month</strong> for one year.</span>
+            <a href="#"
+                class="inline-block tracking-widest uppercase font-semibold underline ml-2 hover:text-vogue-gray transition">
+                GET DIGITAL ACCESS
+            </a>
+        </div>
+    </div>
+
+    <footer class="bg-black text-white pt-16 pb-12 mt-12 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex flex-col items-center text-center pb-12 border-b border-gray-800">
+                <span class="font-vogue-logo text-4xl tracking-wider block">VOGUE</span>
+                <p class="mt-4 text-xs tracking-widest text-gray-400 uppercase max-w-md">
+                    The ultimate authority on fashion, beauty, culture, and living.
+                </p>
+            </div>
+
+            <div
+                class="grid grid-cols-2 sm:grid-cols-4 gap-8 py-12 text-center sm:text-left text-xs tracking-widest uppercase">
+                <div>
+                    <h3 class="font-semibold text-white mb-4">Content</h3>
+                    <ul class="space-y-2.5 text-gray-400 font-light">
+                        <li><a href="#" class="hover:text-white transition">Fashion</a></li>
+                        <li><a href="#" class="hover:text-white transition">Beauty</a></li>
+                        <li><a href="#" class="hover:text-white transition">Culture</a></li>
+                        <li><a href="#" class="hover:text-white transition">Living</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-white mb-4">Connect</h3>
+                    <ul class="space-y-2.5 text-gray-400 font-light">
+                        <li><a href="#" class="hover:text-white transition">Newsletter</a></li>
+                        <li><a href="#" class="hover:text-white transition">Instagram</a></li>
+                        <li><a href="#" class="hover:text-white transition">Twitter</a></li>
+                        <li><a href="#" class="hover:text-white transition">YouTube</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-white mb-4">Company</h3>
+                    <ul class="space-y-2.5 text-gray-400 font-light">
+                        <li><a href="#" class="hover:text-white transition">About Vogue</a></li>
+                        <li><a href="#" class="hover:text-white transition">Careers</a></li>
+                        <li><a href="#" class="hover:text-white transition">Condé Nast</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-white mb-4">Legal</h3>
+                    <ul class="space-y-2.5 text-gray-400 font-light">
+                        <li><a href="#" class="hover:text-white transition">Privacy Policy</a></li>
+                        <li><a href="#" class="hover:text-white transition">User Agreement</a></li>
+                        <li><a href="#" class="hover:text-white transition">Accessibility</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pt-8 border-t border-gray-800 text-center text-[10px] text-gray-500 tracking-wider">
+                &copy; 2026 CONDÉ NAST. ALL RIGHTS RESERVED. VOGUE IS A REGISTERED TRADEMARK OF ADVANCE MAGAZINE
+                PUBLISHERS INC.
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
